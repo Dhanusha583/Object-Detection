@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Hello', 'IloveYou', 'No', 'Please', 'Thanks', 'Yes']
+
+roboflow:
+  workspace: sign-lang-qmn9j
+  project: sing-lang-qxsxo
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/sign-lang-qmn9j/sing-lang-qxsxo/3
